@@ -1,0 +1,16 @@
+BAT	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqBatCellPapMAdult24wksC57bl6AlnRep1.bam
+BoneMarrow	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqBmarrowCellPapMAdult8wksC57bl6AlnRep1.bam
+BMDM	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqBmdmCellPapFAdult8wksC57bl6AlnRep1.bam
+Cerebellum	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqCbellumCellPapMAdult8wksC57bl6AlnRep1.bam
+Cortex	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqCortexCellPapMAdult8wksC57bl6AlnRep1.bam
+Heart	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqHeartCellPapMAdult8wksC57bl6AlnRep1.bam
+Kidney	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqKidneyCellPapMAdult8wksC57bl6AlnRep1.bam
+Liver	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqLiverCellPapMAdult8wksC57bl6AlnRep1.bam
+Lung	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqLungCellPapMAdult8wksC57bl6AlnRep1.bam
+MEF	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqMefCellPapMAdult8wksC57bl6AlnRep1.bam
+OlfactBulb	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqOlfactCellPapMAdult8wksC57bl6AlnRep1.bam
+Placenta	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqPlacCellPapFAdult8wksC57bl6AlnRep1.bam
+SmIntestine	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqSmintCellPapMAdult8wksC57bl6AlnRep1.bam
+Spleen	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqSpleenCellPapMAdult8wksC57bl6AlnRep1.bam
+Testis	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqTestisCellPapMAdult8wksC57bl6AlnRep1.bam
+Thymus	http://hgdownload.cse.ucsc.edu/goldenpath/mm9/encodeDCC/wgEncodeLicrRnaSeq/wgEncodeLicrRnaSeqThymusCellPapMAdult8wksC57bl6AlnRep1.bam

@@ -1,0 +1,2 @@
+PICARD	/x400ifs-accel/zhoujj/software/picard/picard.jar
+CUFFLINKS	/share/apps/bin/cufflinks

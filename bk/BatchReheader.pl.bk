@@ -1,0 +1,54 @@
+#!/usr/bin/perl -w
+
+use strict;
+use Getopt::Long;
+use FindBin qw($Bin $Script);
+use File::Basename qw(basename dirname);
+use File::Path qw(make_path);
+use Data::Dumper;
+use Cwd qw(abs_path);
+
+&usage if @ARGV<1;
+
+sub usage {
+        my $usage = << "USAGE";
+
+        This script create makefile for LncFunNet analysis.
+        Author: zhoujj2013\@gmail.com 
+        Usage: $0 config.cfg
+
+USAGE
+print "$usage";
+exit(1);
+};
+
+my $wget_f = shift;
+my $picard = "$Bin/picard/picard.jar";
+
+open OUT,">","sample.lst" || die $!;
+open IN,"$wget_f" || die $!;
+while(<IN>){
+	chomp;
+	next if(/(^#|bai$)/);
+	my @t = split /\t/;
+	my $bname = basename($t[0]);
+	my @parts = split /\./,$bname;
+	my $sample_name = $parts[2];
+	print OUT "$sample_name\t$bname\n";
+}
+close IN;
+close OUT;
+
+open OUT,">","./run_picard.sh" || die $!;
+open IN,"./sample.lst" || die $!;
+while(<IN>){
+	chomp;
+	my @t = split /\t/;
+	print OUT "java -jar $picard ReplaceSamHeader I=$t[1] HEADER=$Bin/human.header.sam O=$t[0].bam\n";
+}
+close IN;
+close OUT;
+
+`sh ./run_picard.sh`;
+
+
